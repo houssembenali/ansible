@@ -35,6 +35,10 @@
 
 - 
   name: Create MariaDb Container
+  tags: mariadb
   hosts: all
+  become: yes
   roles:
+    - docker
     - container
+

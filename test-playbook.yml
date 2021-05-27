@@ -1,5 +1,6 @@
 # commande d'execussion ansible-playbook test-playbook.yml -i targets.txt 
-
+# 
+# Avant de lancer il faut chmod sur les clées aprés leur création : chmod 600 keys/target1.pem  
 - 
   name: Test Playbook
   hosts: group1
